@@ -21,5 +21,21 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    // 处理文件到 graphql
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src`, // 文件路径
+        name: "src", // 名称，可以用来过滤
+        ignore: [], // 可选的，忽略的文件
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/_posts`, // 文件路径
+        name: "posts", // 名称，可以用来过滤
+      },
+    },
   ],
-}
+};
