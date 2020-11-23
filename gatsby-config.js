@@ -14,5 +14,12 @@ module.exports = {
         implementation: require("sass"),
       },
     },
+    // 字体排版
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
   ],
 }
