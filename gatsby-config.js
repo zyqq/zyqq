@@ -37,5 +37,13 @@ module.exports = {
         name: "posts", // 名称，可以用来过滤
       },
     },
+    // MDX 支持
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.md`, `.mdx`],
+        excerpt_separator: `<!-- more -->`, // 设置摘要分隔符
+      },
+    },
   ],
 };
