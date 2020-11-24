@@ -5,6 +5,12 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Destiny'Note`,
+    author: `destiny`,
+    description: `my own blog`,
+    keywords: `react, graphql, gatsby`,
+  },
   /* Your site config here */
   plugins: [
     // 引入 sass
