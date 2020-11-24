@@ -64,6 +64,16 @@ module.exports = {
         icon: `src/images/icon.png`,
       },
     },
-    `gatsby-plugin-offline`, // 这个插件必须在 manifest 后面
+    // 图片优化
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./static/assets/`, // 图像存在的位置，我们统一修改为 ./static/assets/ 中
+        name: `image`,
+      },
+    },
   ],
 };
