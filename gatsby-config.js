@@ -39,7 +39,7 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/_posts`, // 文件路径
+        path: `${__dirname}/src/posts`, // 文件路径
         name: "posts", // 名称，可以用来过滤
       },
     },
@@ -52,28 +52,28 @@ module.exports = {
       },
     },
     // PWA 支持
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Destiny'Note`,
-        short_name: `Destiny`,
-        start_url: `/`,
-        background_color: `#6b37bf`,
-        theme_color: `#6b37bf`,
-        display: `standalone`,
-        icon: `src/images/icon.png`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `Destiny'Note`,
+    //     short_name: `Destiny`,
+    //     start_url: `/`,
+    //     background_color: `#6b37bf`,
+    //     theme_color: `#6b37bf`,
+    //     display: `standalone`,
+    //     icon: `src/images/icon.png`,
+    //   },
+    // },
     // 图片优化
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `./static/assets/`, // 图像存在的位置，我们统一修改为 ./static/assets/ 中
-        name: `image`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `./static/assets/`, // 图像存在的位置，我们统一修改为 ./static/assets/ 中
+    //     name: `image`,
+    //   },
+    // },
   ],
 };
