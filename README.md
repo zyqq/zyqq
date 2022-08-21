@@ -1,6 +1,6 @@
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=zyqq&show_icons=true&hide_border=true">
 
-- Author: 郑艺秋
+- Author: Echo
 - University: [深圳大学](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6)
 - Location: 深圳
 - Tags: 前端工程师
