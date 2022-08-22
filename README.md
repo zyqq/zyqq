@@ -31,7 +31,7 @@
 [![Y.'s github activity graph](https://activity-graph.herokuapp.com/graph?username=zyqq&theme=xcode)](https://github.com/zyqq)
 
 ### 🤝🏻 Connect
-<a href="https://252545095@qq.com/">
-  <img src="https://img.shields.io/badge/%E9%82%AE%E7%AE%B1-anly_yaw%40163.com-green"/>
+<a href="https://wx.mail.qq.com/">
+  <img src="https://img.shields.io/badge/%E9%82%AE%E7%AE%B1-252545095%40qq.com-green"/>
 </a>
 
